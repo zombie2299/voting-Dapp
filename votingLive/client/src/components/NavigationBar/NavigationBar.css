@@ -1,0 +1,39 @@
+/* Basic reset for the list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar container */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Navigation list */
+.navbar-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Navigation items */
+.navbar-item {
+    padding: 14px 20px;
+}
+
+/* Navigation links */
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for links */
+.navbar-link:hover {
+    background-color: #575757;
+    color: #fff;
+    border-radius: 4px;
+}
